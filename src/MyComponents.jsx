@@ -71,7 +71,7 @@ function MyComponent(props) {
                 {activeMarker === center.id ? (
                   <InfoWindowF onCloseClick={() => setActiveMarker(null)}>
                     <div>
-                      <>{center.name}</p>
+                      {/* <>{center.name}</p> */}
                       <p>{center.address}</p>
                     </div>
                   </InfoWindowF>
